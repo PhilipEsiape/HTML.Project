@@ -1,0 +1,19 @@
+input{
+    width: 10vw;
+    height: 20vw;
+    border-radius: 25px;
+}
+
+a{
+    font-size: 3vw;
+    text-decoration: none;
+    
+}
+p{
+    opacity: 0.9;
+    width: 6vw;
+    font-size: 3vw;
+    color: blue;
+    border: 3px solid black;
+    margin: 20px 30px 40px 10px;
+}

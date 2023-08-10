@@ -1,0 +1,106 @@
+*body{
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+    background-color: rgb(103, 212, 145);
+    color: white;
+    margin: 10px 50px;
+}
+a{
+    text-decoration: none;
+  
+    font-size: 1.2rem;
+}
+.logo h1{
+    color:black;
+    font-size: 1.7rem;
+   
+
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-menu em{
+    display: flex;
+    gap: 10px;
+}
+.header {
+    display: flex;
+}
+.profile{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.profile img{
+    width: 200px;
+}
+
+#content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+#contact {
+    width: 30%;
+}
+#contact form{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    min-width: 300px;
+    width: 90%;
+}
+#contact form label{
+    color: #000;
+    font-size: 1.3rem;
+    padding: 10px 0;
+    font-weight: bold;
+}
+
+
+#contact form input{
+    padding: 15px;
+    width: 100%;
+    border-radius: 15px;
+    border: none;
+    margin: 10px 0;
+}
+
+#contact form button{
+    padding: 10px 35px;
+    font-size: 1.1rem;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 10px;
+
+}
+
+
+
+
+#tables{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    border: 1px solid #000;
+    gap: 3px;
+    width: fit-content;
+    padding: 3px;
+}
+
+#tables table{
+    border: 1px solid #000;
+    margin: 0
+    ;
+}
+.hobbies ol li{
+    color: black;
+    font-size: 1.2rem;
+}
